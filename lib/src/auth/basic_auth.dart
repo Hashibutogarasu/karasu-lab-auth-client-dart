@@ -5,7 +5,7 @@
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
-import 'package:karasu_lab_auth_client_dart/src/auth/auth.dart';
+import 'package:karasu_lab_auth_client/src/auth/auth.dart';
 
 class BasicAuthInfo {
   final String username;

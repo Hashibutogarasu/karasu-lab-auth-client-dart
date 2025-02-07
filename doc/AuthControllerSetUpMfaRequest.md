@@ -1,8 +1,8 @@
-# karasu_lab_auth_client_dart.model.AuthControllerSetUpMfaRequest
+# karasu_lab_auth_client.model.AuthControllerSetUpMfaRequest
 
 ## Load the model package
 ```dart
-import 'package:karasu_lab_auth_client_dart/api.dart';
+import 'package:karasu_lab_auth_client/api.dart';
 ```
 
 ## Properties

@@ -11,7 +11,7 @@ doc/AuthControllerSetUpMfaRequest.md
 doc/AuthControllerSigninConfirmRequest.md
 doc/AuthControllerSigninRequest.md
 doc/AuthControllerSignupRequest.md
-lib/karasu_lab_auth_client_dart.dart
+lib/karasu_lab_auth_client.dart
 lib/src/api.dart
 lib/src/api/auth_api.dart
 lib/src/api_util.dart

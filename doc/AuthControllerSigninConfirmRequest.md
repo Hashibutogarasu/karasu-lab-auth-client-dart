@@ -1,8 +1,8 @@
-# karasu_lab_auth_client_dart.model.AuthControllerSigninConfirmRequest
+# karasu_lab_auth_client.model.AuthControllerSigninConfirmRequest
 
 ## Load the model package
 ```dart
-import 'package:karasu_lab_auth_client_dart/api.dart';
+import 'package:karasu_lab_auth_client/api.dart';
 ```
 
 ## Properties

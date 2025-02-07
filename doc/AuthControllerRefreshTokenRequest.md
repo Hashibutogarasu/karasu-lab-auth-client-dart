@@ -1,8 +1,8 @@
-# karasu_lab_auth_client_dart.model.AuthControllerRefreshTokenRequest
+# karasu_lab_auth_client.model.AuthControllerRefreshTokenRequest
 
 ## Load the model package
 ```dart
-import 'package:karasu_lab_auth_client_dart/api.dart';
+import 'package:karasu_lab_auth_client/api.dart';
 ```
 
 ## Properties
