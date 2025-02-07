@@ -4,7 +4,7 @@
 
 import 'package:built_collection/built_collection.dart';
 import 'package:built_value/serializer.dart';
-import 'package:karasu256_api_auth_client/src/model/date.dart';
+import 'package:karasu_lab_auth_client_dart/src/model/date.dart';
 
 class DateSerializer implements PrimitiveSerializer<Date> {
 

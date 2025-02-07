@@ -1,8 +1,8 @@
-# karasu256_api_auth_client.api.AuthApi
+# karasu_lab_auth_client_dart.api.AuthApi
 
 ## Load the API package
 ```dart
-import 'package:karasu256_api_auth_client/api.dart';
+import 'package:karasu_lab_auth_client_dart/api.dart';
 ```
 
 All URIs are relative to *https://api.karasu256.com*
@@ -30,9 +30,9 @@ Method | HTTP request | Description
 
 ### Example
 ```dart
-import 'package:karasu256_api_auth_client/api.dart';
+import 'package:karasu_lab_auth_client_dart/api.dart';
 
-final api = Karasu256ApiAuthClient().getAuthApi();
+final api = KarasuLabAuthClientDart().getAuthApi();
 final AuthControllerChangePasswordRequest authControllerChangePasswordRequest = ; // AuthControllerChangePasswordRequest | 
 
 try {
@@ -71,9 +71,9 @@ Name | Type | Description  | Notes
 
 ### Example
 ```dart
-import 'package:karasu256_api_auth_client/api.dart';
+import 'package:karasu_lab_auth_client_dart/api.dart';
 
-final api = Karasu256ApiAuthClient().getAuthApi();
+final api = KarasuLabAuthClientDart().getAuthApi();
 final AuthControllerDisableMfaRequest authControllerDisableMfaRequest = ; // AuthControllerDisableMfaRequest | 
 
 try {
@@ -112,9 +112,9 @@ Name | Type | Description  | Notes
 
 ### Example
 ```dart
-import 'package:karasu256_api_auth_client/api.dart';
+import 'package:karasu_lab_auth_client_dart/api.dart';
 
-final api = Karasu256ApiAuthClient().getAuthApi();
+final api = KarasuLabAuthClientDart().getAuthApi();
 final AuthControllerEnableMfaRequest authControllerEnableMfaRequest = ; // AuthControllerEnableMfaRequest | 
 
 try {
@@ -153,9 +153,9 @@ Name | Type | Description  | Notes
 
 ### Example
 ```dart
-import 'package:karasu256_api_auth_client/api.dart';
+import 'package:karasu_lab_auth_client_dart/api.dart';
 
-final api = Karasu256ApiAuthClient().getAuthApi();
+final api = KarasuLabAuthClientDart().getAuthApi();
 final AuthControllerForgotPasswordRequest authControllerForgotPasswordRequest = ; // AuthControllerForgotPasswordRequest | 
 
 try {
@@ -194,9 +194,9 @@ No authorization required
 
 ### Example
 ```dart
-import 'package:karasu256_api_auth_client/api.dart';
+import 'package:karasu_lab_auth_client_dart/api.dart';
 
-final api = Karasu256ApiAuthClient().getAuthApi();
+final api = KarasuLabAuthClientDart().getAuthApi();
 final AuthControllerSigninRequest authControllerSigninRequest = ; // AuthControllerSigninRequest | 
 
 try {
@@ -235,9 +235,9 @@ No authorization required
 
 ### Example
 ```dart
-import 'package:karasu256_api_auth_client/api.dart';
+import 'package:karasu_lab_auth_client_dart/api.dart';
 
-final api = Karasu256ApiAuthClient().getAuthApi();
+final api = KarasuLabAuthClientDart().getAuthApi();
 final AuthControllerSetUpMfaRequest authControllerSetUpMfaRequest = ; // AuthControllerSetUpMfaRequest | 
 
 try {
@@ -276,9 +276,9 @@ Name | Type | Description  | Notes
 
 ### Example
 ```dart
-import 'package:karasu256_api_auth_client/api.dart';
+import 'package:karasu_lab_auth_client_dart/api.dart';
 
-final api = Karasu256ApiAuthClient().getAuthApi();
+final api = KarasuLabAuthClientDart().getAuthApi();
 
 try {
     api.authControllerMe();
@@ -312,9 +312,9 @@ void (empty response body)
 
 ### Example
 ```dart
-import 'package:karasu256_api_auth_client/api.dart';
+import 'package:karasu_lab_auth_client_dart/api.dart';
 
-final api = Karasu256ApiAuthClient().getAuthApi();
+final api = KarasuLabAuthClientDart().getAuthApi();
 final AuthControllerRefreshTokenRequest authControllerRefreshTokenRequest = ; // AuthControllerRefreshTokenRequest | 
 
 try {
@@ -353,9 +353,9 @@ Name | Type | Description  | Notes
 
 ### Example
 ```dart
-import 'package:karasu256_api_auth_client/api.dart';
+import 'package:karasu_lab_auth_client_dart/api.dart';
 
-final api = Karasu256ApiAuthClient().getAuthApi();
+final api = KarasuLabAuthClientDart().getAuthApi();
 final AuthControllerSetUpMfaRequest authControllerSetUpMfaRequest = ; // AuthControllerSetUpMfaRequest | 
 
 try {
@@ -394,9 +394,9 @@ Name | Type | Description  | Notes
 
 ### Example
 ```dart
-import 'package:karasu256_api_auth_client/api.dart';
+import 'package:karasu_lab_auth_client_dart/api.dart';
 
-final api = Karasu256ApiAuthClient().getAuthApi();
+final api = KarasuLabAuthClientDart().getAuthApi();
 final AuthControllerSigninRequest authControllerSigninRequest = ; // AuthControllerSigninRequest | 
 
 try {
@@ -435,9 +435,9 @@ No authorization required
 
 ### Example
 ```dart
-import 'package:karasu256_api_auth_client/api.dart';
+import 'package:karasu_lab_auth_client_dart/api.dart';
 
-final api = Karasu256ApiAuthClient().getAuthApi();
+final api = KarasuLabAuthClientDart().getAuthApi();
 final AuthControllerSigninConfirmRequest authControllerSigninConfirmRequest = ; // AuthControllerSigninConfirmRequest | 
 
 try {
@@ -476,9 +476,9 @@ No authorization required
 
 ### Example
 ```dart
-import 'package:karasu256_api_auth_client/api.dart';
+import 'package:karasu_lab_auth_client_dart/api.dart';
 
-final api = Karasu256ApiAuthClient().getAuthApi();
+final api = KarasuLabAuthClientDart().getAuthApi();
 final AuthControllerSignupRequest authControllerSignupRequest = ; // AuthControllerSignupRequest | 
 
 try {

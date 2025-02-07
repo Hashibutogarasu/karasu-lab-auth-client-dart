@@ -4,7 +4,7 @@
 
 
 import 'package:dio/dio.dart';
-import 'package:karasu256_api_auth_client/src/auth/auth.dart';
+import 'package:karasu_lab_auth_client_dart/src/auth/auth.dart';
 
 class ApiKeyAuthInterceptor extends AuthInterceptor {
   final Map<String, String> apiKeys = {};

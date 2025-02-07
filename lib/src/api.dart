@@ -4,20 +4,20 @@
 
 import 'package:dio/dio.dart';
 import 'package:built_value/serializer.dart';
-import 'package:karasu256_api_auth_client/src/serializers.dart';
-import 'package:karasu256_api_auth_client/src/auth/api_key_auth.dart';
-import 'package:karasu256_api_auth_client/src/auth/basic_auth.dart';
-import 'package:karasu256_api_auth_client/src/auth/bearer_auth.dart';
-import 'package:karasu256_api_auth_client/src/auth/oauth.dart';
-import 'package:karasu256_api_auth_client/src/api/auth_api.dart';
+import 'package:karasu_lab_auth_client_dart/src/serializers.dart';
+import 'package:karasu_lab_auth_client_dart/src/auth/api_key_auth.dart';
+import 'package:karasu_lab_auth_client_dart/src/auth/basic_auth.dart';
+import 'package:karasu_lab_auth_client_dart/src/auth/bearer_auth.dart';
+import 'package:karasu_lab_auth_client_dart/src/auth/oauth.dart';
+import 'package:karasu_lab_auth_client_dart/src/api/auth_api.dart';
 
-class Karasu256ApiAuthClient {
+class KarasuLabAuthClientDart {
   static const String basePath = r'https://api.karasu256.com';
 
   final Dio dio;
   final Serializers serializers;
 
-  Karasu256ApiAuthClient({
+  KarasuLabAuthClientDart({
     Dio? dio,
     Serializers? serializers,
     String? basePathOverride,
