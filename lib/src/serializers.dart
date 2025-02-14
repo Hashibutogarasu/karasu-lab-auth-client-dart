@@ -18,6 +18,7 @@ import 'package:karasu_lab_auth_client/src/model/auth_controller_change_password
 import 'package:karasu_lab_auth_client/src/model/auth_controller_disable_mfa_request.dart';
 import 'package:karasu_lab_auth_client/src/model/auth_controller_enable_mfa_request.dart';
 import 'package:karasu_lab_auth_client/src/model/auth_controller_forgot_password_request.dart';
+import 'package:karasu_lab_auth_client/src/model/auth_controller_me_default_response.dart';
 import 'package:karasu_lab_auth_client/src/model/auth_controller_refresh_token_request.dart';
 import 'package:karasu_lab_auth_client/src/model/auth_controller_set_up_mfa_request.dart';
 import 'package:karasu_lab_auth_client/src/model/auth_controller_signin_confirm_request.dart';
@@ -31,6 +32,7 @@ part 'serializers.g.dart';
   AuthControllerDisableMfaRequest,
   AuthControllerEnableMfaRequest,
   AuthControllerForgotPasswordRequest,
+  AuthControllerMeDefaultResponse,
   AuthControllerRefreshTokenRequest,
   AuthControllerSetUpMfaRequest,
   AuthControllerSigninConfirmRequest,

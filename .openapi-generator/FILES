@@ -6,6 +6,7 @@ doc/AuthControllerChangePasswordRequest.md
 doc/AuthControllerDisableMfaRequest.md
 doc/AuthControllerEnableMfaRequest.md
 doc/AuthControllerForgotPasswordRequest.md
+doc/AuthControllerMeDefaultResponse.md
 doc/AuthControllerRefreshTokenRequest.md
 doc/AuthControllerSetUpMfaRequest.md
 doc/AuthControllerSigninConfirmRequest.md
@@ -25,6 +26,7 @@ lib/src/model/auth_controller_change_password_request.dart
 lib/src/model/auth_controller_disable_mfa_request.dart
 lib/src/model/auth_controller_enable_mfa_request.dart
 lib/src/model/auth_controller_forgot_password_request.dart
+lib/src/model/auth_controller_me_default_response.dart
 lib/src/model/auth_controller_refresh_token_request.dart
 lib/src/model/auth_controller_set_up_mfa_request.dart
 lib/src/model/auth_controller_signin_confirm_request.dart
@@ -33,3 +35,4 @@ lib/src/model/auth_controller_signup_request.dart
 lib/src/model/date.dart
 lib/src/serializers.dart
 pubspec.yaml
+test/auth_controller_me_default_response_test.dart

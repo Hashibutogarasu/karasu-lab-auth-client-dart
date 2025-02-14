@@ -12,11 +12,15 @@ Serializers _$serializers = (new Serializers().toBuilder()
       ..add(AuthControllerEnableMfaRequest.serializer)
       ..add(AuthControllerEnableMfaRequestAnswerChallengeEnum.serializer)
       ..add(AuthControllerForgotPasswordRequest.serializer)
+      ..add(AuthControllerMeDefaultResponse.serializer)
       ..add(AuthControllerRefreshTokenRequest.serializer)
       ..add(AuthControllerSetUpMfaRequest.serializer)
       ..add(AuthControllerSigninConfirmRequest.serializer)
       ..add(AuthControllerSigninRequest.serializer)
-      ..add(AuthControllerSignupRequest.serializer))
+      ..add(AuthControllerSignupRequest.serializer)
+      ..addBuilderFactory(
+          const FullType(BuiltList, const [const FullType(String)]),
+          () => new ListBuilder<String>()))
     .build();
 
 // ignore_for_file: deprecated_member_use_from_same_package,type=lint
