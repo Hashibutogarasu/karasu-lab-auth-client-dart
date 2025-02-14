@@ -9,7 +9,7 @@ import 'package:karasu_lab_auth_client/src/auth/api_key_auth.dart';
 import 'package:karasu_lab_auth_client/src/auth/basic_auth.dart';
 import 'package:karasu_lab_auth_client/src/auth/bearer_auth.dart';
 import 'package:karasu_lab_auth_client/src/auth/oauth.dart';
-import 'package:karasu_lab_auth_client/src/api/auth_api.dart';
+import 'package:karasu_lab_auth_client/src/api/admin_auth_api.dart';
 
 class KarasuLabAuthClient {
   static const String basePath = r'https://api.karasu256.com';
@@ -65,9 +65,9 @@ class KarasuLabAuthClient {
     }
   }
 
-  /// Get AuthApi instance, base route and serializer can be overridden by a given but be careful,
+  /// Get AdminAuthApi instance, base route and serializer can be overridden by a given but be careful,
   /// by doing that all interceptors will not be executed
-  AuthApi getAuthApi() {
-    return AuthApi(dio, serializers);
+  AdminAuthApi getAdminAuthApi() {
+    return AdminAuthApi(dio, serializers);
   }
 }

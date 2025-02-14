@@ -47,14 +47,14 @@ Please follow the [installation procedure](#installation--usage) and then run th
 import 'package:karasu_lab_auth_client/karasu_lab_auth_client.dart';
 
 
-final api = KarasuLabAuthClient().getAuthApi();
-final AuthControllerChangePasswordRequest authControllerChangePasswordRequest = ; // AuthControllerChangePasswordRequest | 
+final api = KarasuLabAuthClient().getAdminAuthApi();
+final AdminAuthControllerChangePasswordRequest adminAuthControllerChangePasswordRequest = ; // AdminAuthControllerChangePasswordRequest | 
 
 try {
-    final response = await api.authControllerChangePassword(authControllerChangePasswordRequest);
+    final response = await api.adminAuthControllerChangePassword(adminAuthControllerChangePasswordRequest);
     print(response);
 } catch on DioException (e) {
-    print("Exception when calling AuthApi->authControllerChangePassword: $e\n");
+    print("Exception when calling AdminAuthApi->adminAuthControllerChangePassword: $e\n");
 }
 
 ```
@@ -65,31 +65,31 @@ All URIs are relative to *https://api.karasu256.com*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-[*AuthApi*](doc/AuthApi.md) | [**authControllerChangePassword**](doc/AuthApi.md#authcontrollerchangepassword) | **POST** /auth/change-password | 
-[*AuthApi*](doc/AuthApi.md) | [**authControllerDisableMfa**](doc/AuthApi.md#authcontrollerdisablemfa) | **POST** /auth/mfa/disable | 
-[*AuthApi*](doc/AuthApi.md) | [**authControllerEnableMfa**](doc/AuthApi.md#authcontrollerenablemfa) | **POST** /auth/mfa/enable | 
-[*AuthApi*](doc/AuthApi.md) | [**authControllerForgotPassword**](doc/AuthApi.md#authcontrollerforgotpassword) | **POST** /auth/forgot-password | 
-[*AuthApi*](doc/AuthApi.md) | [**authControllerForgotPasswordConfirm**](doc/AuthApi.md#authcontrollerforgotpasswordconfirm) | **POST** /auth/forgot-password/confirm | 
-[*AuthApi*](doc/AuthApi.md) | [**authControllerGetRefreshToken**](doc/AuthApi.md#authcontrollergetrefreshtoken) | **POST** /auth/get-refresh-token | 
-[*AuthApi*](doc/AuthApi.md) | [**authControllerMe**](doc/AuthApi.md#authcontrollerme) | **GET** /auth | 
-[*AuthApi*](doc/AuthApi.md) | [**authControllerRefreshToken**](doc/AuthApi.md#authcontrollerrefreshtoken) | **POST** /auth/refresh-token | 
-[*AuthApi*](doc/AuthApi.md) | [**authControllerSetUpMfa**](doc/AuthApi.md#authcontrollersetupmfa) | **POST** /auth/mfa/set-up | 
-[*AuthApi*](doc/AuthApi.md) | [**authControllerSignin**](doc/AuthApi.md#authcontrollersignin) | **POST** /auth/sign-in | 
-[*AuthApi*](doc/AuthApi.md) | [**authControllerSigninConfirm**](doc/AuthApi.md#authcontrollersigninconfirm) | **POST** /auth/sign-up/confirm | 
-[*AuthApi*](doc/AuthApi.md) | [**authControllerSignup**](doc/AuthApi.md#authcontrollersignup) | **POST** /auth/sign-up | 
+[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerChangePassword**](doc/AdminAuthApi.md#adminauthcontrollerchangepassword) | **POST** /auth/admin/change-password | 
+[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerDisableMfa**](doc/AdminAuthApi.md#adminauthcontrollerdisablemfa) | **POST** /auth/admin/mfa/disable | 
+[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerEnableMfa**](doc/AdminAuthApi.md#adminauthcontrollerenablemfa) | **POST** /auth/admin/mfa/enable | 
+[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerForgotPassword**](doc/AdminAuthApi.md#adminauthcontrollerforgotpassword) | **POST** /auth/admin/forgot-password | 
+[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerForgotPasswordConfirm**](doc/AdminAuthApi.md#adminauthcontrollerforgotpasswordconfirm) | **POST** /auth/admin/forgot-password/confirm | 
+[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerGetRefreshToken**](doc/AdminAuthApi.md#adminauthcontrollergetrefreshtoken) | **POST** /auth/admin/get-refresh-token | 
+[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerMe**](doc/AdminAuthApi.md#adminauthcontrollerme) | **GET** /auth/admin | 
+[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerRefreshToken**](doc/AdminAuthApi.md#adminauthcontrollerrefreshtoken) | **POST** /auth/admin/refresh-token | 
+[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerSetUpMfa**](doc/AdminAuthApi.md#adminauthcontrollersetupmfa) | **POST** /auth/admin/mfa/set-up | 
+[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerSignin**](doc/AdminAuthApi.md#adminauthcontrollersignin) | **POST** /auth/admin/sign-in | 
+[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerSigninConfirm**](doc/AdminAuthApi.md#adminauthcontrollersigninconfirm) | **POST** /auth/admin/sign-up/confirm | 
+[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerSignup**](doc/AdminAuthApi.md#adminauthcontrollersignup) | **POST** /auth/admin/sign-up | 
 
 
 ## Documentation For Models
 
- - [AuthControllerChangePasswordRequest](doc/AuthControllerChangePasswordRequest.md)
- - [AuthControllerDisableMfaRequest](doc/AuthControllerDisableMfaRequest.md)
- - [AuthControllerEnableMfaRequest](doc/AuthControllerEnableMfaRequest.md)
- - [AuthControllerForgotPasswordRequest](doc/AuthControllerForgotPasswordRequest.md)
- - [AuthControllerRefreshTokenRequest](doc/AuthControllerRefreshTokenRequest.md)
- - [AuthControllerSetUpMfaRequest](doc/AuthControllerSetUpMfaRequest.md)
- - [AuthControllerSigninConfirmRequest](doc/AuthControllerSigninConfirmRequest.md)
- - [AuthControllerSigninRequest](doc/AuthControllerSigninRequest.md)
- - [AuthControllerSignupRequest](doc/AuthControllerSignupRequest.md)
+ - [AdminAuthControllerChangePasswordRequest](doc/AdminAuthControllerChangePasswordRequest.md)
+ - [AdminAuthControllerDisableMfaRequest](doc/AdminAuthControllerDisableMfaRequest.md)
+ - [AdminAuthControllerEnableMfaRequest](doc/AdminAuthControllerEnableMfaRequest.md)
+ - [AdminAuthControllerForgotPasswordRequest](doc/AdminAuthControllerForgotPasswordRequest.md)
+ - [AdminAuthControllerRefreshTokenRequest](doc/AdminAuthControllerRefreshTokenRequest.md)
+ - [AdminAuthControllerSetUpMfaRequest](doc/AdminAuthControllerSetUpMfaRequest.md)
+ - [AdminAuthControllerSigninConfirmRequest](doc/AdminAuthControllerSigninConfirmRequest.md)
+ - [AdminAuthControllerSigninRequest](doc/AdminAuthControllerSigninRequest.md)
+ - [AdminAuthControllerSignupRequest](doc/AdminAuthControllerSignupRequest.md)
 
 
 ## Documentation For Authorization
