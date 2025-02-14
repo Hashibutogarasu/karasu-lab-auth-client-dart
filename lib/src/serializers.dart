@@ -14,28 +14,10 @@ import 'package:built_value/iso_8601_date_time_serializer.dart';
 import 'package:karasu_lab_auth_client/src/date_serializer.dart';
 import 'package:karasu_lab_auth_client/src/model/date.dart';
 
-import 'package:karasu_lab_auth_client/src/model/admin_auth_controller_change_password_request.dart';
-import 'package:karasu_lab_auth_client/src/model/admin_auth_controller_disable_mfa_request.dart';
-import 'package:karasu_lab_auth_client/src/model/admin_auth_controller_enable_mfa_request.dart';
-import 'package:karasu_lab_auth_client/src/model/admin_auth_controller_forgot_password_request.dart';
-import 'package:karasu_lab_auth_client/src/model/admin_auth_controller_refresh_token_request.dart';
-import 'package:karasu_lab_auth_client/src/model/admin_auth_controller_set_up_mfa_request.dart';
-import 'package:karasu_lab_auth_client/src/model/admin_auth_controller_signin_confirm_request.dart';
-import 'package:karasu_lab_auth_client/src/model/admin_auth_controller_signin_request.dart';
-import 'package:karasu_lab_auth_client/src/model/admin_auth_controller_signup_request.dart';
 
 part 'serializers.g.dart';
 
 @SerializersFor([
-  AdminAuthControllerChangePasswordRequest,
-  AdminAuthControllerDisableMfaRequest,
-  AdminAuthControllerEnableMfaRequest,
-  AdminAuthControllerForgotPasswordRequest,
-  AdminAuthControllerRefreshTokenRequest,
-  AdminAuthControllerSetUpMfaRequest,
-  AdminAuthControllerSigninConfirmRequest,
-  AdminAuthControllerSigninRequest,
-  AdminAuthControllerSignupRequest,
 ])
 Serializers serializers = (_$serializers.toBuilder()
       ..add(const OneOfSerializer())

@@ -46,17 +46,6 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```dart
 import 'package:karasu_lab_auth_client/karasu_lab_auth_client.dart';
 
-
-final api = KarasuLabAuthClient().getAdminAuthApi();
-final AdminAuthControllerChangePasswordRequest adminAuthControllerChangePasswordRequest = ; // AdminAuthControllerChangePasswordRequest | 
-
-try {
-    final response = await api.adminAuthControllerChangePassword(adminAuthControllerChangePasswordRequest);
-    print(response);
-} catch on DioException (e) {
-    print("Exception when calling AdminAuthApi->adminAuthControllerChangePassword: $e\n");
-}
-
 ```
 
 ## Documentation for API Endpoints
@@ -65,31 +54,10 @@ All URIs are relative to *https://api.karasu256.com*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerChangePassword**](doc/AdminAuthApi.md#adminauthcontrollerchangepassword) | **POST** /auth/admin/change-password | 
-[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerDisableMfa**](doc/AdminAuthApi.md#adminauthcontrollerdisablemfa) | **POST** /auth/admin/mfa/disable | 
-[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerEnableMfa**](doc/AdminAuthApi.md#adminauthcontrollerenablemfa) | **POST** /auth/admin/mfa/enable | 
-[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerForgotPassword**](doc/AdminAuthApi.md#adminauthcontrollerforgotpassword) | **POST** /auth/admin/forgot-password | 
-[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerForgotPasswordConfirm**](doc/AdminAuthApi.md#adminauthcontrollerforgotpasswordconfirm) | **POST** /auth/admin/forgot-password/confirm | 
-[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerGetRefreshToken**](doc/AdminAuthApi.md#adminauthcontrollergetrefreshtoken) | **POST** /auth/admin/get-refresh-token | 
-[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerMe**](doc/AdminAuthApi.md#adminauthcontrollerme) | **GET** /auth/admin | 
-[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerRefreshToken**](doc/AdminAuthApi.md#adminauthcontrollerrefreshtoken) | **POST** /auth/admin/refresh-token | 
-[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerSetUpMfa**](doc/AdminAuthApi.md#adminauthcontrollersetupmfa) | **POST** /auth/admin/mfa/set-up | 
-[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerSignin**](doc/AdminAuthApi.md#adminauthcontrollersignin) | **POST** /auth/admin/sign-in | 
-[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerSigninConfirm**](doc/AdminAuthApi.md#adminauthcontrollersigninconfirm) | **POST** /auth/admin/sign-up/confirm | 
-[*AdminAuthApi*](doc/AdminAuthApi.md) | [**adminAuthControllerSignup**](doc/AdminAuthApi.md#adminauthcontrollersignup) | **POST** /auth/admin/sign-up | 
 
 
 ## Documentation For Models
 
- - [AdminAuthControllerChangePasswordRequest](doc/AdminAuthControllerChangePasswordRequest.md)
- - [AdminAuthControllerDisableMfaRequest](doc/AdminAuthControllerDisableMfaRequest.md)
- - [AdminAuthControllerEnableMfaRequest](doc/AdminAuthControllerEnableMfaRequest.md)
- - [AdminAuthControllerForgotPasswordRequest](doc/AdminAuthControllerForgotPasswordRequest.md)
- - [AdminAuthControllerRefreshTokenRequest](doc/AdminAuthControllerRefreshTokenRequest.md)
- - [AdminAuthControllerSetUpMfaRequest](doc/AdminAuthControllerSetUpMfaRequest.md)
- - [AdminAuthControllerSigninConfirmRequest](doc/AdminAuthControllerSigninConfirmRequest.md)
- - [AdminAuthControllerSigninRequest](doc/AdminAuthControllerSigninRequest.md)
- - [AdminAuthControllerSignupRequest](doc/AdminAuthControllerSignupRequest.md)
 
 
 ## Documentation For Authorization
@@ -102,6 +70,5 @@ Authentication schemes defined for the API:
 
 
 ## Author
-
 
 
