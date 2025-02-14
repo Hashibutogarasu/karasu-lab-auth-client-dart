@@ -16,7 +16,6 @@ export 'package:karasu_lab_auth_client/src/model/auth_controller_change_password
 export 'package:karasu_lab_auth_client/src/model/auth_controller_disable_mfa_request.dart';
 export 'package:karasu_lab_auth_client/src/model/auth_controller_enable_mfa_request.dart';
 export 'package:karasu_lab_auth_client/src/model/auth_controller_forgot_password_request.dart';
-export 'package:karasu_lab_auth_client/src/model/auth_controller_me_default_response.dart';
 export 'package:karasu_lab_auth_client/src/model/auth_controller_refresh_token_request.dart';
 export 'package:karasu_lab_auth_client/src/model/auth_controller_set_up_mfa_request.dart';
 export 'package:karasu_lab_auth_client/src/model/auth_controller_signin_confirm_request.dart';

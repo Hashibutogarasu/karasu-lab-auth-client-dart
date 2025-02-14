@@ -85,7 +85,6 @@ Class | Method | HTTP request | Description
  - [AuthControllerDisableMfaRequest](doc/AuthControllerDisableMfaRequest.md)
  - [AuthControllerEnableMfaRequest](doc/AuthControllerEnableMfaRequest.md)
  - [AuthControllerForgotPasswordRequest](doc/AuthControllerForgotPasswordRequest.md)
- - [AuthControllerMeDefaultResponse](doc/AuthControllerMeDefaultResponse.md)
  - [AuthControllerRefreshTokenRequest](doc/AuthControllerRefreshTokenRequest.md)
  - [AuthControllerSetUpMfaRequest](doc/AuthControllerSetUpMfaRequest.md)
  - [AuthControllerSigninConfirmRequest](doc/AuthControllerSigninConfirmRequest.md)
