@@ -9,6 +9,7 @@ import 'package:karasu_lab_auth_client/src/auth/api_key_auth.dart';
 import 'package:karasu_lab_auth_client/src/auth/basic_auth.dart';
 import 'package:karasu_lab_auth_client/src/auth/bearer_auth.dart';
 import 'package:karasu_lab_auth_client/src/auth/oauth.dart';
+import 'package:karasu_lab_auth_client/src/api/public_auth_api.dart';
 
 class KarasuLabAuthClient {
   static const String basePath = r'https://api.karasu256.com';
@@ -62,5 +63,11 @@ class KarasuLabAuthClient {
     if (this.dio.interceptors.any((i) => i is ApiKeyAuthInterceptor)) {
       (this.dio.interceptors.firstWhere((element) => element is ApiKeyAuthInterceptor) as ApiKeyAuthInterceptor).apiKeys[name] = apiKey;
     }
+  }
+
+  /// Get PublicAuthApi instance, base route and serializer can be overridden by a given but be careful,
+  /// by doing that all interceptors will not be executed
+  PublicAuthApi getPublicAuthApi() {
+    return PublicAuthApi(dio, serializers);
   }
 }
