@@ -1,5 +1,4 @@
 .gitignore
-.openapi-generator-ignore
 README.md
 analysis_options.yaml
 doc/PublicAuthApi.md
@@ -28,10 +27,3 @@ lib/src/model/public_auth_controller_signin_request.dart
 lib/src/model/public_auth_controller_signup_request.dart
 lib/src/serializers.dart
 pubspec.yaml
-test/public_auth_api_test.dart
-test/public_auth_controller_me200_response_metadata_test.dart
-test/public_auth_controller_me200_response_provider_data_inner_test.dart
-test/public_auth_controller_me200_response_test.dart
-test/public_auth_controller_signin200_response_test.dart
-test/public_auth_controller_signin_request_test.dart
-test/public_auth_controller_signup_request_test.dart
